@@ -21,6 +21,5 @@ RUN python -m venv /py && \
     django-user
 
 ENV PATH="/py/bin:$PATH"
-
 CMD ["sh", "-c", "flake8"]
 USER django-user
